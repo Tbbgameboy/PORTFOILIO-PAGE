@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PERSONAL PORTFOLIO WEBSITE</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="img/logo.png" class="logo" />
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfoilio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+          <img src="img/times.png" alt="send logo" class="no" onclick="closemenu()">
+          </ul>
+          <img src="img/menu 2.jpeg" alt="send logo" class="no" onclick="openmenu()">
+        </nav>
+        <div class="header-text">
+          <p>software designer</p>
+          <h1>Hi, I'm <span>Saint</span><br/>Worgu From Nigeria</h1>
+        </div>
+      </div>
+    </div>
+    <!-------------about--------- -->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="img/saint 2.jpg" alt="" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+              My name is saint worgu, i am a software engineer and a footballer
+              by profession. I am a frontend and backend programmer on different
+              languages. I play football for a living to keep myself fit and to
+              become a professional and international programmer and footballer.
+              I school at Christ international school located at ogbatai Woji,
+              Portharcourt Riverstate. I am a christain and maths
+              teacher.Thanks.
+            </p>
+
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>Software</span><br />Designing web/app interfaces</li>
+                <li><span>Web development</span><br />Web App Development</li>
+                <li>
+                  <span>App development</span><br />Building Andriod/IOS apps
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li>
+                  <span>2025-current</span><br />Computer Programming,and maths
+                  teacher at school
+                </li>
+                <li>
+                  <span>2022-2023</span><br />Computer Software and Application
+                </li>
+                <li><span>2024-2025</span><br />Team lead on Cyber Security</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>
+                  <span>2023</span><br />Training on computer software and
+                  Application
+                </li>
+                <li>
+                  <span>2025-current</span><br />Training on Web App Development
+                </li>
+                <li><span>2022</span><br />Training on cyber Security</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-------------services--------- -->
+    <div id="Services">
+      <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+          <div>
+            <h2>Software design</h2>
+            <p>Hi again,My name is saint worgu.I render service like software design call me i u are interested
+               in me doing a design for u. Thanks</p>
+              <a href="#">Learn more</a>
+          </div>
+          <div>
+            <h2>Graphic design</h2>
+            <p>Hi again,My name is saint worgu.I render service like Graphic design call me i u are interested
+               in me doing a design for u. Thanks</p>
+              <a href="#">Learn more</a>
+          </div>
+            <div>
+            <h2>Website design</h2>
+            <p>Hi again,My name is saint worgu.I render service like Website design call me i u are interested
+               in me doing a design for u. Thanks</p>
+              <a href="#">Learn more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-------------portfolio--------- -->
+    <div id="Portfolio">
+      <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="img/phone.jpeg">
+            <div class="layer">
+              <h3>Social Media App</h3>
+              <p>The app connects you to other talented people around the world.
+                Download it from play store</p>
+                <a href="#">download</a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="img/phone 2.jpeg">
+            <div class="layer">
+              <h3>Music App</h3>
+              <p>The app connects you to other talented people around the world.
+                Download it from play store</p>
+                <a href="#">download</a>
+          </div>
+          </div>
+          <div class="work">
+            <div class="layer">
+            <img src="img/phone 3.jpeg" >
+              <h3>Jumia Shopping App</h3>
+              <p>The app connects you to other talented people around the world.
+                Download it from play store</p>
+                <a href="#">download</a>
+          </div>
+          </div>
+        </div>
+        <a href="#" class="btn">see more</a>
+      </div>
+    </div>
+    <!-------------contact--------- -->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><img src="img/send 2.png" alt="send logo" class="no"></a> contact@saint.com</p>
+            <p><img src="img/phone 4.png" alt="call logo" class="of"></a> 08107208350</p>
+            <div class="social-icons">
+        <a href="http://twitter.com/@saintworgu"><img src="img/twitter-wrap.jpg" alt="twitter logo" class="social "></a>
+        <a href="http://Tiktok.com/saintworgu2"><img src="img/tiktok.png" alt="tiktok logo" class="social "></a>
+        <a href="http://Instagram.com/tbbg.ameboy"><img src="img/instagram.webp" alt="instagram logo" class="social "></a>
+            </div>
+            <a href="img/my.cv.pdf" download class="btn btn2">Download CV</a>
+          </div>
+            <div class="contact-right">
+              <form>
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="Email" placeholder="Your Email" required>
+                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+              </form>
+            </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>Copyright @Saint.Made with by Saint tutorials</p>
+      </div>
+    </div>
+
+
+
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+
+      function opentab(tabname) {
+        console.log({tabname, tabcontents})
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+
+    <script>
+
+      var sidemenu = document.getElementById("sidemenu");
+
+      function openmenu(){
+        sidemenu.style.right = "0";
+      }
+      function closemenu(){
+        sidemenu.style.right = "-200px";
+      }
+
+    </script>
+
+  </body>
+</html>
